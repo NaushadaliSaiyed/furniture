@@ -9,6 +9,7 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('/src/assets/ms_115_3.jpg')",
         'backgroundOne': "url('/src/assets/01.png')",
+        'product1': "url('/src/assets/symbioosa-lighting-llev.jpg')",
       }
     },
   },
