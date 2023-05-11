@@ -17,7 +17,7 @@ const Navbar = () => {
       </ul>
       <VscSearch className='mx-20' /> 
     </div>  :
-     <div className='fixed flex justify-between items-center text-white bg-[#48474D] w-[84%] h-[12%] top-[10%] left-[8%] z-30'>
+     <div className='fixed flex justify-between items-center text-white bg-[#48474D] w-[84%] h-[12%] top-[8%] left-[8%] z-30'>
     <h1 className='mx-20 font-semibold text-2xl'><i>Botiko</i></h1>
     <ul className='flex gap-12'>
       <li className='font-mono font-semibold cursor-pointer'>Prodcast</li>
