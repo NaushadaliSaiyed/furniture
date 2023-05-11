@@ -6,7 +6,7 @@ import SarviceProduct from '../components/service/SarviceProduct';
 const Services = () => {
   return (
     <>
-      <div className='bg-white h-[63%] w-[84%] mt-28 flex'>
+      <div className='bg-white h-[63%] w-[84%] mt-28 flex ml-[8%]'>
         <div>
           <h1 className='mt-20 ml-20 font-bold text-5xl'> Software Development <br />Services</h1>
           <p className='mt-12 ml-20 text-xl'> We love to shake established thought-patterns and create what has never <br /> been attempted before. we take seeds and grow jungles </p>
