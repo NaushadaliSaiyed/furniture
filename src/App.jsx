@@ -13,7 +13,7 @@ function App() {
 const AppWrapper = () => {
   return (
     <BrowserRouter>
-      <div className='bg-[#BFC0BD]'>
+      <div className=''>
         <Navbar />
         <App />
       </div>
