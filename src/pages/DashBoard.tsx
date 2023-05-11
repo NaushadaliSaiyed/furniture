@@ -4,10 +4,10 @@ import RightDashBoard from '../components/dashBoard/RightDashBoard'
 
 const DashBoard = () => {
   return (
-    <>
-        <LeftDashBoard/>
-        <RightDashBoard/>      
-    </>
+    <div className='w-[90%] h-[80%] flex'>
+      <LeftDashBoard />
+      <RightDashBoard />
+    </div>
   )
 }
 
