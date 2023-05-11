@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter, useRoutes } from "react-router-dom";
-import routes from './routes/routes';
 import Navbar from './components/Navbar';
+import routes from './routes/routes';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 const AppWrapper = () => {
   return (
     <BrowserRouter>
-      <div className='bg-[#BFC0BD] w-full h-screen flex justify-center items-center'>
+      <div className='bg-[#BFC0BD]'>
         <Navbar />
         <App />
       </div>
