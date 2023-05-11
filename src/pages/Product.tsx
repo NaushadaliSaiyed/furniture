@@ -2,9 +2,11 @@ import React from 'react'
 
 const Product = () => {
   return (
-    <div>
-      neha
+  
+    <div className='bg-black h-screen w-full'>
+
     </div>
+
   )
 }
 
