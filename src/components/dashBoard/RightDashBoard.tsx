@@ -20,8 +20,8 @@ const TypingComponent:any = () => {
   return (
     <div className="w-[70%] h-full bg-blue-200 bg-[url('/src/assets/dark-furniture.jpg')] bg-no-repeat bg-cover">
       <div className='flex justify-center items-start w-full h-full'>
-        <p className='text-2xl font-semibold text-gray-700'>For those who</p>
-        <p className='text-2xl font-semibold text-gray-700'><TypingComponent/></p>
+        <p className='text-2xl font-bold text-[#FF561D]'>For those who <span className='text-2xl font-semibold text-gray-700'> <TypingComponent/></span></p>
+        
       </div>
     </div>
   )
