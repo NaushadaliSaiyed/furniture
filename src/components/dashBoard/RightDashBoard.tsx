@@ -13,10 +13,6 @@ const TypingComponent:any = () => {
     );
   }
 
-
-
-
-
   return (
     <div className="w-[70%] h-full bg-blue-200 bg-[url('/src/assets/dark-furniture.jpg')] bg-no-repeat bg-cover">
       <div className='flex justify-center items-start w-full h-full'>
