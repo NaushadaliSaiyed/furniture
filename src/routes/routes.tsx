@@ -3,6 +3,7 @@ import DashBoard from "../pages/DashBoard"
 import About from "../pages/About";
 import Services from "../pages/Services";
 import Product from "../pages/Product";
+import ContactUS from "../pages/ContactUS";
 
 const routes: any = () =>
     [
@@ -21,6 +22,10 @@ const routes: any = () =>
         {
             path: "/product",
             element: <Product />,
+        },
+        {
+            path: "/contact-us",
+            element: <ContactUS />,
         },
 
     ];

@@ -13,10 +13,10 @@ function App() {
 const AppWrapper = () => {
   return (
     <BrowserRouter>
-      <div className=''>
+      <>
         <Navbar />
         <App />
-      </div>
+      </>
     </BrowserRouter>
   )
 

@@ -13,7 +13,7 @@ const Navbar = () => {
         <li className='font-mono font-semibold cursor-pointer'><Link to={'product'}>Product</Link></li>
         <li className='font-mono font-semibold cursor-pointer'><Link to={'about'}>About</Link></li>
         <li className='font-mono font-semibold cursor-pointer'><Link to={'services'}>Services</Link></li>
-        <li className='font-mono font-semibold cursor-pointer'><Link to={'coutactus'}>Contact us</Link></li>
+        <li className='font-mono font-semibold cursor-pointer'><Link to={'contact-us'}>Contact us</Link></li>
       </ul>
       <VscSearch className='mx-20' />
     </div>
