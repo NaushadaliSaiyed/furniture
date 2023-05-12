@@ -5,7 +5,8 @@ const Product = () => {
 
     <div className='h-screen w-full'>
       <div className=' h-[680px] flex flex-col ml-28 gap-16'>
-        <p className='font-semibold text-5xl mt-64'>Case Studies</p>
+        <p className='font-semibold text-5xl mt-64'> <span className='text-orange-600' >Perks </span>and benefits</p>
+        <p className='font-semibold text-5xl'>Case Studies</p>
         <p className='w-[890px] text-1xl '>We believe that great products cannot happen without passion, intelligence, and personal commitment, and it is demonstrated by our portfolio that spans different customers, industries, and target audiences.</p>
       </div>
       <div className='flex gap-24'>
