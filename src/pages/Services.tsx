@@ -8,7 +8,6 @@ const Services = () => {
     <>
       <div className='bg-white h-[63%] w-[84%] mt-36 flex ml-[3%]'>
         <div>
-          
           <p className='mt-28 ml-20 font-bold text-5xl'>Affordable Luxury <br /> <br />  Discover Your Dream <span className='text-orange-600'>Home</span> </p>
           <p className='mt-12 ml-20 text-xl'> We love to shake established thought-patterns and create what has never <br /> been attempted before. we take seeds and grow jungles </p>
           <div className='flex gap-3 items-center ml-20 mt-52'>
@@ -21,7 +20,7 @@ const Services = () => {
           <Book />
         </div>
       </div>
-      <SarviceProduct/>
+      <SarviceProduct />
     </>
   )
 }
