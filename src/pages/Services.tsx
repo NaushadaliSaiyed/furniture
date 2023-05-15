@@ -13,7 +13,7 @@ const Services = () => {
           <div className='flex gap-3 items-center ml-20 mt-36 p-4'>
             <p className='font-bold font-serif'> M Be </p>
             <FaBasketballBall />
-            <p className='font-bold from-neutral-900 text-xl'>C </p>
+            <p className='font-bold from-neutral-900'>C </p>
           </div>
         </div>
         <div className='ml-32'>
