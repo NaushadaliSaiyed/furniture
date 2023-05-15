@@ -1,8 +1,19 @@
 import React from 'react'
 import { FaBasketballBall } from 'react-icons/fa';
+import CarouselSlider from '../components/animation/CarouselSlider';
+import officeneture from '../assets/Image/officeneture.jpg'
+import officeneture2 from '../assets/Image/officeneture2.jpg'
+import officeneture3 from '../assets/Image/officeneture3.jpg'
+
 
 
 const About = () => {
+  const images = [
+    officeneture,
+    officeneture2,
+    officeneture3,
+  ];
+  
   return (
     <div className='h-full w-full flex flex-col items-center '>
       <div className='w-[84%] mt-[20%]'>
@@ -24,6 +35,9 @@ const About = () => {
       <div className='w-full h-[30rem] flex justify-between items-center p-[8%]'>
         <img src="../src/assets/office1.jpg" alt="" width={"48%"}/>
         <img src="../src/assets/office2.jpg" alt="" width={"48%"}/>
+      </div>
+      <div className="w-[84%] h-[80vh] flex flex-col justify-center items-center">
+      <CarouselSlider images={images}  />
       </div>
     </div>
   )
