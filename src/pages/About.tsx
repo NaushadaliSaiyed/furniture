@@ -21,7 +21,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className='w-full h-[30rem] flex justify-between items-center p-[3%]'>
+      <div className='w-full h-[30rem] flex justify-between items-center p-[8%]'>
         <img src="../src/assets/office1.jpg" alt="" width={"48%"}/>
         <img src="../src/assets/office2.jpg" alt="" width={"48%"}/>
       </div>
