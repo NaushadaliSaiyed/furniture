@@ -53,7 +53,10 @@ const ContactUsLeftSide = () => {
                     placeholder='Your Message'
                 ></textarea>
                 <div className='flex justify-between w-80 mt-5'>
-                    <span className='flex text-center items-center gap-4 cursor-pointer hover:text-orange-500'> <ImAttachment className='text-lg' /> <p className=''> Attach File </p></span>
+                    <span className='flex text-center items-center gap-4 cursor-pointer hover:text-orange-500'>
+                        <ImAttachment className='text-lg' />
+                        <p className=''> Attach File </p>
+                    </span>
                     <button className='bg-orange-600 h-10 w-44 rounded-sm text-white font-semibold text-base cursor-pointer'>Send Message</button>
                 </div>
             </div>
