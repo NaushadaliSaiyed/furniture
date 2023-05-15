@@ -5,21 +5,19 @@ import groovyWalkAnimation from "../assets/json/wired-lineal-497-truck-delivery.
 import groovyWalkAnimation1 from "../assets/json/wired-lineal-1121-iota-internet-of-things.json";
 
 
-
 const Product = () => {
   const TypingComponent: any = () => {
     return (
       <>
         <Typed
           strings={['and benefits', 'beautiful and smart design.', 'need to build complex projects.', ]}
-          typeSpeed={50}
+          typeSpeed={0}
           loop
         />
         
       </>
     );
   }
-
 
 
   return (

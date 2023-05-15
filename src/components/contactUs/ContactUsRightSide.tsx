@@ -25,7 +25,14 @@ const ContactUsRightSide = () => {
                     <p> +33 (75) 786 6548</p>
                 </span>
             </div>
-            <div></div>
+            <div className='mt-10'>
+                <p className='text-lg font-semibold'>Address</p>
+                <p> B-303 Mondeal Heights, <br />
+                    Iskon Cross Road, <br />
+                    S.G Highway, Ramdev Nagar <br />
+                    A'bad Gujarat - 380015
+                </p>
+            </div>
         </div>
     )
 }
