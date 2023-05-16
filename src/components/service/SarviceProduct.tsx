@@ -22,7 +22,8 @@ const SarviceProduct = () => {
             <div>
                 <p className=' ml-28 font-semibold text-4xl mb-20 pt-10'>Your One-Stop Shop for Trendy and Timeless Furniture</p>
             </div>
-            <div className='flex items-center ml-[8rem] gap-[3rem] w-max'>
+            {/* <div className='w-3/4 flex items-center flex-col' > */}
+              <div className='flex  justify-center  gap-[149px] items-center '>
                 <div className='bg-white h-[26rem] w-[21rem] flex flex-col items-center gap-5 p-4'>
                     <span><TbSofa className='text-8xl' /></span>
                     <p className='font-medium text-3xl mt-5 hover:text-orange-600' >Luxurious Sofas</p>
@@ -45,10 +46,10 @@ const SarviceProduct = () => {
                         Wake Up 
                     </p>
                 </div>
-            </div>
+              </div>
 
 
-            <div className='flex items-center ml-[8rem] gap-[3rem] mt-16 w-max'>
+             <div className='flex justify-center  gap-[149px] mt-16 '>
                 <div className='bg-white h-[26rem] w-[21rem] flex flex-col items-center gap-5 p-4'>
                     <span><FaFirstOrderAlt className='text-8xl' /></span>
                     <p className='font-medium text-3xl mt-5 hover:text-orange-600' >The art of furniture </p>
@@ -67,17 +68,18 @@ const SarviceProduct = () => {
                     <p  className='w-52'> From sofas and beds to tables and chairs, each piece of furniture serves a unique purpose. The right furniture can maximize space, improve organization,  home.
                     </p>
                 </div>
-            </div>
+             </div>
 
 
-            <div className='flex items-center ml-[8rem] gap-[10rem] mt-16 pb-10 w-max'>
+             <div className='flex justify-start items-center mt-16 pb-10 ml-[135px] '>
                 <div className='bg-white h-[26rem] w-[21rem] flex flex-col items-center gap-5 p-4'>
                     <span><BsGift className='text-8xl' /></span>
                     <p className='font-medium text-3xl mt-5 hover:text-orange-600' >Gift for a loved one </p>
                     <p className='w-52'>A unique piece of furniture can add character to their space and become a cherished and practical item that they use daily. It's a gift that can truly last a lifetime.
                     </p>
                 </div>
-            </div>
+             </div>
+            {/* </div> */}
 
 
 
