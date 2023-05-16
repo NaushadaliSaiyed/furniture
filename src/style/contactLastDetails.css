@@ -63,3 +63,32 @@
   bottom: 10px;
   padding: 0;
 }
+
+
+.w3rcontainer{
+    border: 1px solid #cccfdb;
+    border-radius: 2px;
+ } 
+ .fire-art-web-design {
+   display: inline-block;
+   position: relative;
+   color: black;
+ }
+ 
+ .fire-art-web-design:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: orangered;
+   transform-origin: bottom right;
+   transition: transform 0.95s ease-out;
+ }
+ 
+ .fire-art-web-design:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
