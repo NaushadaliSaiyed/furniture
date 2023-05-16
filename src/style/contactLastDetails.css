@@ -1,0 +1,65 @@
+.contact-last-details.ant-collapse-borderless {
+  /* background-color: rgb(0 0 0 / 4%); */
+  border: 0;
+  margin-left: -20px;
+}
+
+
+.contact-last-details.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 1.5714285714285714;
+  cursor: pointer;
+  transition: all 0.3s, visibility 0s;
+}
+
+.contact-last-details.ant-collapse
+  .ant-collapse-content
+  > .ant-collapse-content-box {
+  /* padding: 0px 25px; */
+  margin-left: 8px;
+}
+
+.contact-last-details.ant-collapse{
+    background-color: transparent !important;
+}
+
+
+.contact-last-details.ant-collapse-borderless >.ant-collapse-item {
+    border-bottom: 0px solid #d9d9d9;
+}
+
+.contact-last-details.ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-expand-icon {
+  height: 22px;
+  display: flex;
+  align-items: center;
+  padding-inline-end: 12px;
+  position: relative;
+  left: 150px;
+}
+
+.contact-last-details.ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-arrow {
+  font-size: 8px;
+}
+
+.contact-last-details
+  .ant-collapse-borderless
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box {
+  /* padding-top: 5px; */
+  position: relative;
+  left: 38px;
+  bottom: 10px;
+  padding: 0;
+}
