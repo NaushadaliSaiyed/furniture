@@ -22,7 +22,7 @@ const SarviceProduct = () => {
             <div>
                 <p className=' ml-28 font-semibold text-4xl mb-20 pt-10'>Your One-Stop Shop for Trendy and Timeless Furniture</p>
             </div>
-            <div className='flex items-center ml-[8rem] gap-[10rem] w-max'>
+            <div className='flex items-center ml-[8rem] gap-[3rem] w-max'>
                 <div className='bg-white h-[26rem] w-[21rem] flex flex-col items-center gap-5 p-4'>
                     <span><TbSofa className='text-8xl' /></span>
                     <p className='font-medium text-3xl mt-5 hover:text-orange-600' >Luxurious Sofas</p>
@@ -48,7 +48,7 @@ const SarviceProduct = () => {
             </div>
 
 
-            <div className='flex items-center ml-[8rem] gap-[10rem] mt-16 w-max'>
+            <div className='flex items-center ml-[8rem] gap-[3rem] mt-16 w-max'>
                 <div className='bg-white h-[26rem] w-[21rem] flex flex-col items-center gap-5 p-4'>
                     <span><FaFirstOrderAlt className='text-8xl' /></span>
                     <p className='font-medium text-3xl mt-5 hover:text-orange-600' >The art of furniture </p>
