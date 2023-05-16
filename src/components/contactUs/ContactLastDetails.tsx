@@ -10,7 +10,7 @@ const ContactLastDetails = () => {
     return (
         <>
             <div>
-                <p className='font-semibold text-lg'> Visit us </p>
+                <p className='font-semibold text-xl'> Visit us </p>
                 <div className='mt-4 text-gray-500 cursor-pointer'>
                     Alaska <br />
                     ui. Massachusetts 25, 05-958 <br />
@@ -18,7 +18,7 @@ const ContactLastDetails = () => {
                 </div>
             </div>
             <span>
-                <p className='font-semibold text-lg'>Call us</p>
+                <p className='font-semibold text-xl'>Call us</p>
                 <div className='mt-4 text-gray-500  '>
                     <div className='cursor-pointer'>
                         <p>Russia</p>
@@ -35,7 +35,7 @@ const ContactLastDetails = () => {
                 </div>
             </span>
             <span>
-                <p className='font-semibold text-lg'>Company</p>
+                <p className='font-semibold text-xl'>Company</p>
                 <div className='mt-4 cursor-pointer text-gray-500'>
                     <p className='fire-art-web-design flex columns-1 text-gray-500'>Cases</p>
                     <p className='fire-art-web-design flex columns-1 text-gray-500'>Service</p>
@@ -46,7 +46,7 @@ const ContactLastDetails = () => {
                 </div>
             </span>
             <div>
-                <p className='font-semibold text-lg'>Details</p>
+                <p className='font-semibold text-xl'>Details</p>
                 <div className='mt-4'>
                     <Collapse
                         style={{ cursor: "pointer", fontWeight: "600" }}
@@ -84,7 +84,7 @@ const ContactLastDetails = () => {
                             <p className='fire-art-web-design flex text-gray-500 mt-1'> Web development/back end </p>
                             <p className='fire-art-web-design flex text-gray-500 mt-1'> Node.JS/hire developers </p>
                             <p className='fire-art-web-design flex text-gray-500 mt-1'> React js developer </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Web app developer </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Web app developer</p>
                         </Panel>
                         <Panel header="Industries" key="5">
                             <p className='fire-art-web-design flex text-gray-500 mt-1'> React js development </p>
@@ -106,7 +106,7 @@ const ContactLastDetails = () => {
                 </div>
             </div>
             <span>
-                <p className='font-semibold text-lg'>Follow us</p>
+                <p className='font-semibold text-xl'>Follow us</p>
                 <div className='mt-4 cursor-pointer text-gray-500'>
                     <p className='fire-art-web-design flex columns-1 text-gray-500'>Dribble</p>
                     <p className='fire-art-web-design flex columns-1 text-gray-500'>Trello</p>
