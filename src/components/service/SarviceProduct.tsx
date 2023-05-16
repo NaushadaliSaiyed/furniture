@@ -9,9 +9,6 @@ import { BsGift } from 'react-icons/bs';
 
 
 
-
-
-
 // import Lottie from "lottie-react";
 // import groovyWalkAnimation2 from "../../assets/json/wired-lineal-1356-wooden-box.json";
 
