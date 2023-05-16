@@ -4,7 +4,7 @@ import { AiOutlineCopy } from 'react-icons/ai'
 
 const ContactUsRightSide = () => {
     return (
-        <div className='w-[100%]'>
+        <div className='w-[100%] pt-28'>
             <p className='text-2xl font-semibold'>Email</p>
             <span className='flex mt-3 text-center items-center gap-2'>
                 <p className='text-orange-400 cursor-pointer'>rohit@tapatap.com</p>
