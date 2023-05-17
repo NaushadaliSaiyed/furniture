@@ -6,7 +6,6 @@ import officeneture2 from '../assets/Image/officeneture2.jpg'
 import officeneture3 from '../assets/Image/officeneture3.jpg'
 
 
-
 const About = () => {
   const images = [
     officeneture,
