@@ -66,8 +66,8 @@ const SarviceProduct = () => {
                 </div>
              </div>
 
-             <div className='flex justify-start items-center mt-16 pb-10 ml-[135px] '>
-                <div className='bg-white h-[416px] w-[21%] flex flex-col items-center gap-5 p-4'>
+             <div className='flex justify-normal  mt-16 pb-10 ml-[108px] '>
+                <div className='bg-white h-[416px] w-[23%] flex flex-col items-center gap-5 p-4'>
                     <span><BsGift className='text-8xl' /></span>
                     <p className='font-medium text-2xl mt-5 hover:text-orange-600' >Gift for a loved one </p>
                     <p className='w-52'>A unique piece of furniture can add character to their space and become a cherished and practical item that they use daily. It's a gift that can truly last a lifetime.
