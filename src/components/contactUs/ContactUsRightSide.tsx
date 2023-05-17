@@ -7,11 +7,11 @@ const ContactUsRightSide = () => {
         <div className='w-[100%] pt-28'>
             <p className='text-2xl font-semibold'>Email</p>
             <span className='flex mt-3 text-center items-center gap-2'>
-                <p className='text-orange-400 cursor-pointer'>rohit@tapatap.com</p>
+                <p className='text-orange-400 cursor-pointer'>sharif@firefox.com</p>
                 <AiOutlineCopy className='text-lg' />
             </span>
             <p className='text-2xl font-semibold mt-12'>Phones</p>
-            <div className='flex justify-between'>
+            <div className='flex justify-between flex-col md:flex-row'>
                 <span>
                     <p className='mt-2'>Russia</p>
                     <p> +07 (65) 785 9874</p>

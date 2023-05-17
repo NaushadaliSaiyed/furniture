@@ -8,8 +8,8 @@ const { Panel } = Collapse;
 const ContactLastDetails = () => {
 
     return (
-        <>
-            <div className='w-[400px]'>
+        <div className='flex flex-col md:flex-row'>
+            <div className='w-[300px]'>
                 <p className='font-semibold text-xl'> Visit us </p>
                 <div className='mt-4 text-gray-500 cursor-pointer'>
                     Alaska <br />
@@ -17,7 +17,7 @@ const ContactLastDetails = () => {
                     <p className='fire-art-web-design flex w-max columns-1 text-gray-500'>sharif@front.studio</p>
                 </div>
             </div>
-            <span className='w-[300px]'>
+            <span className='w-[200px]'>
                 <p className='font-semibold text-xl'>Call us</p>
                 <div className='mt-4 text-gray-500  '>
                     <div className='cursor-pointer'>
@@ -34,7 +34,7 @@ const ContactLastDetails = () => {
                     </div>
                 </div>
             </span>
-            <span className='w-[300px]'>
+            <span className='w-[200px]'>
                 <p className='font-semibold text-xl'>Company</p>
                 <div className='mt-4 cursor-pointer text-gray-500'>
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Cases</p>
@@ -45,7 +45,7 @@ const ContactLastDetails = () => {
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Contact Us</p>
                 </div>
             </span>
-            <div className='w-[400px]'>
+            <div className='w-[300px]'>
                 <p className='font-semibold text-xl'>Details</p>
                 <div className='mt-4'>
                     <Collapse
@@ -119,7 +119,7 @@ const ContactLastDetails = () => {
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Medium</p>
                 </div>
             </span>
-        </>
+        </div>
     )
 }
 
