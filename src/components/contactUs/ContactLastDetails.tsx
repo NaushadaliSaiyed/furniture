@@ -9,7 +9,7 @@ const ContactLastDetails = () => {
 
     return (
         <>
-            <div>
+            <div className='w-[400px]'>
                 <p className='font-semibold text-xl'> Visit us </p>
                 <div className='mt-4 text-gray-500 cursor-pointer'>
                     Alaska <br />
@@ -17,7 +17,7 @@ const ContactLastDetails = () => {
                     <p className='fire-art-web-design flex columns-1 text-gray-500'>sharif@front.studio</p>
                 </div>
             </div>
-            <span>
+            <span className='w-[300px]'>
                 <p className='font-semibold text-xl'>Call us</p>
                 <div className='mt-4 text-gray-500  '>
                     <div className='cursor-pointer'>
@@ -34,7 +34,7 @@ const ContactLastDetails = () => {
                     </div>
                 </div>
             </span>
-            <span>
+            <span className='w-[300px]'>
                 <p className='font-semibold text-xl'>Company</p>
                 <div className='mt-4 cursor-pointer text-gray-500'>
                     <p className='fire-art-web-design flex columns-1 text-gray-500'>Cases</p>
@@ -45,7 +45,7 @@ const ContactLastDetails = () => {
                     <p className='fire-art-web-design flex columns-1 text-gray-500'>Contact Us</p>
                 </div>
             </span>
-            <div>
+            <div className='w-[400px]'>
                 <p className='font-semibold text-xl'>Details</p>
                 <div className='mt-4'>
                     <Collapse
@@ -54,13 +54,19 @@ const ContactLastDetails = () => {
                         bordered={false}
                         defaultActiveKey={['0']}
                     >
-                        <Panel header="Service" key="1">
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'>Agile Team of JS Programmers</p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'>Refreshing existing products </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'>Building product from scratch </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'>Digital Product Design </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'>Branding </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'>Motion Design </p>
+                        <Panel header="Service" key="1" className='control-up-down'>
+                            <div className='overflow-scroll h-[100px]'>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Agile Team of JS Programmers</p>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Refreshing existing products </p>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Building product from scratch </p>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Digital Product Design </p>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Branding </p>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Motion Design </p>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Motion Design </p>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Motion Design </p>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Motion Design </p>
+                                <p className='fire-art-web-design flex text-gray-500 mt-1'>Motion Design </p>
+                            </div>
                         </Panel>
                         <Panel header="Technologies" key="2">
                             <p className='fire-art-web-design flex text-gray-500 mt-1'> React js development </p>
@@ -87,25 +93,25 @@ const ContactLastDetails = () => {
                             <p className='fire-art-web-design flex text-gray-500 mt-1'> Web app developer</p>
                         </Panel>
                         <Panel header="Industries" key="5">
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> React js development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Node.JS development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> React Native/app development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> VUE/web development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Angular development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> .NET </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Automotive Software development </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Banking/mobile app development </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Business/mobile app development </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Business/web development </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> E-learning development </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Ecommerce/app development </p>
                         </Panel>
                         <Panel header="Cities we operate in" key="6">
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> React js development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Node.JS development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> React Native/app development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> VUE/web development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Angular development </p>
-                            <p className='fire-art-web-design flex text-gray-500 mt-1'> .NET </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Chicago </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Atlanta </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Alaska </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Colorado </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> Boston </p>
+                            <p className='fire-art-web-design flex text-gray-500 mt-1'> New York </p>
                         </Panel>
                     </Collapse>
                 </div>
             </div>
-            <span>
+            <span className='w-[250px]'>
                 <p className='font-semibold text-xl'>Follow us</p>
                 <div className='mt-4 cursor-pointer text-gray-500'>
                     <p className='fire-art-web-design flex columns-1 text-gray-500'>Dribble</p>
