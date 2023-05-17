@@ -32,8 +32,8 @@ const Product = () => {
       <Lottie animationData={groovyWalkAnimation} loop={true} style={{marginTop:"373px",marginRight:"121px" }} />
       </div>
       </div>
-      <div className='flex gap-[14.2rem]'>
-        <div className='mt-20 ml-[7.9rem]  '>
+      <div className='flex gap-[95px]'>
+        <div className='mt-20 ml-[114px]  '>
           <div className='hover:transform hover:scale-95 hover:-translate-y-1 transition ease-in-out delay-200'>
           <img src="../src/assets/symbioosa-lighting-llev.jpg" alt="" className='w-[530px] h-[480px]  ' />
           </div>
@@ -51,8 +51,8 @@ const Product = () => {
         </div>
       </div>
 
-      <div className='flex gap-[14.2rem]'>
-        <div className='mt-20 ml-[7.9rem] '>
+      <div className='flex gap-[95px]'>
+        <div className='mt-20 ml-[114px] '>
         <div className='hover:transform hover:scale-95 hover:-translate-y-1 transition ease-in-out delay-200'>
           <img src="../src/assets/istockphoto2.jpg" alt="" className='w-[530px] h-[520px] ' />
           </div>
@@ -72,8 +72,8 @@ const Product = () => {
 
 
 
-      <div className='flex gap-[14.2rem]'>
-        <div className='mt-20 ml-[7.9rem]  '>
+      <div className='flex gap-[95px]'>
+        <div className='mt-20 ml-[114px]  '>
         <div className='hover:transform hover:scale-95 hover:-translate-y-1 transition ease-in-out delay-200'>
           <img src="../src/assets/istockphoto.jpg" alt="" className='w-[530px] h-[520px] ' /></div>
           <p className='font-semibold mt-7'>Product Design</p>
@@ -89,8 +89,8 @@ const Product = () => {
         </div>
       </div>
 
-      <div className='flex gap-[14.2rem]'>
-        <div className='mt-20 ml-[7.9rem] '>
+      <div className='flex gap-[95px]'>
+        <div className='mt-20 ml-[114px] '>
         <div className='hover:transform hover:scale-95 hover:-translate-y-1 transition ease-in-out delay-200'>
           <img src="../src/assets/istockphoto4.jpg" alt="" className='w-[530px] h-[520px] ' /></div>
           <p className='font-semibold mt-7'>Product Design</p>
@@ -107,8 +107,8 @@ const Product = () => {
         </div>
       </div>
 
-      <div className='flex gap-[14.2rem]'>
-        <div className='mt-20 ml-[7.9rem]  '>
+      <div className='flex gap-[95px]'>
+        <div className='mt-20 ml-[114px]  '>
         <div className='hover:transform hover:scale-95 hover:-translate-y-1 transition ease-in-out delay-200'>
           <img src="../src/assets/istockphoto6.jpg" alt="" className='w-[530px] h-[520px] ' /></div>
           <p className='font-semibold mt-7'>Product Design</p>
@@ -128,8 +128,8 @@ const Product = () => {
         </div>
       </div>
 
-      <div className='flex gap-[14.2rem]'>
-        <div className='mt-20 ml-[7.9rem] '>
+      <div className='flex gap-[95px]'>
+        <div className='mt-20 ml-[114px] '>
         <div className='hover:transform hover:scale-95 hover:-translate-y-1 transition ease-in-out delay-200'>
           <img src="../src/assets/istockphoto8.jpg" alt="" className='w-[530px] h-[520px] '/></div>
           <p className='font-semibold mt-7'>Product Design</p>
