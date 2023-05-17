@@ -35,7 +35,7 @@ const ContactLastDetails = () => {
                 </div>
             </span>
             <span className='w-[200px]'>
-                <p className='font-semibold text-xl'>Company</p>
+                <p className='font-semibold text-xl'>Company</p>    
                 <div className='mt-4 cursor-pointer text-gray-500'>
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Cases</p>
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Service</p>
