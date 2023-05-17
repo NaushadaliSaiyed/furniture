@@ -3,6 +3,8 @@ import '../style/contactUs.css'
 import ContactUsLeftSide from '../components/contactUs/ContactUsLeftSide';
 import ContactUsRightSide from '../components/contactUs/ContactUsRightSide';
 import ContactLastDetails from '../components/contactUs/ContactLastDetails';
+import capital from '../assets/Image/Copyright-Symbol-Header-Image.png'
+import star from '../assets/Image/five star.360_F_280195423.jpg'
 
 
 const ContactUS = () => {
@@ -19,8 +21,22 @@ const ContactUS = () => {
         >
         </iframe>
       </div>
-      <div className='flex pt-14 pl-32 justify-between w-[85%]'>
-        <ContactLastDetails/>
+      <div className='flex pt-14 pl-32 pb-10 justify-between w-[85%]'>
+        <ContactLastDetails />
+      </div>
+      <div className='flex justify-between w-[90%]'>
+        <div className='flex text-center items-center'>
+          <img src={capital} alt="" className='h-8 w-14 ml-24' />
+          <div className=''>
+            <img src={star} alt="" className='h-4 w-24 relative right-2' />
+            <p className='text-sm font-semibold'>5.0 by 25 Reviews </p>
+          </div>
+        </div>
+        <div className='flex justify-between gap-10'>
+          <p>Copyright 2023 FireFox Studio. All rights reserved</p>
+          <p>Cookie Policy</p>
+          <p>Privacy Policy</p>
+        </div>
       </div>
     </>
   )
