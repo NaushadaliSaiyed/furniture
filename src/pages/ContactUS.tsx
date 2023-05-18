@@ -26,13 +26,13 @@ const ContactUS = () => {
       </div>
       <div className='flex justify-between w-[90%] flex-col md:flex-row'>
         <div className='flex text-center items-center'>
-          <img src={capital} alt="" className='h-8 w-14 ml-24' />
+          <img src={capital} alt="" className='h-14 w-24 ml-24' />
           <div className=''>
-            <img src={star} alt="" className='h-4 w-24 relative right-2' />
-            <p className='text-sm font-semibold'>5.0 by 25 Reviews </p>
+            <img src={star} alt="" className='h-6 w-28 relative right-2' />
+            <p className='text-xl font-semibold'>5.0 by 25 Reviews </p>
           </div>
         </div>
-        <div className='flex justify-between gap-10 flex-col text-start md:flex-row ml-28'>
+        <div className='flex justify-between gap-10 font-semibold flex-col text-start md:flex-row ml-28'>
           <p>Copyright 2023 FireFox Studio. All rights reserved</p>
           <p>Cookie Policy</p>
           <p>Privacy Policy</p>
