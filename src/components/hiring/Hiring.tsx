@@ -1,7 +1,7 @@
 import React from 'react'
 import officepic from '../../assets/Image/laptopinoffice.jpg'
 import neha from '../../assets/Image/nehaimage.jpeg'
-import sharif from "../../assets/Image/myphotoup.jpeg";
+import sharif from "../../assets/Image/mynewpic.jpeg";
 import naushad from "../../assets/Image/naushadpic.jpg";
 
 
