@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSwipeable } from 'react-swipeable';
+import { AiOutlineLeft,AiOutlineRight } from 'react-icons/ai';
 
 
 
@@ -66,20 +67,20 @@ const CarouselSlider: React.FC<CarouselSliderProps> = ({ images, interval = 2000
           onClick={handlePrevious}
           className="bg-white font-semibold text-orange-600 hover:text-[#48474D] w-14 h-14 rounded-full text-4xl flex items-center justify-center"
         >
-          &lt;
+          <AiOutlineLeft/>
         </button>
         <button
           onClick={handleNext}
           className="bg-white font-semibold text-orange-600 hover:text-[#48474D] w-14 h-14 rounded-full text-4xl flex items-center justify-center"
-        >
-          &gt;
+          >
+          <AiOutlineRight/>
         </button>
       </div>
       <div className="flex justify-center items-center relative bottom-[15%]">
         {images.map((_, index) => (
           <div
             key={index}
-            className={`w-3 h-3 mx-1 rounded-full cursor-pointer ${index === currentIndex ? 'bg-blue-500' : 'bg-gray-500'}`}
+            className={`w-3 h-3 mx-1 rounded-full cursor-pointer ${index === currentIndex ? 'bg-orange-600' : 'bg-white'}`}
             onClick={() => handleDotIndicatorClick(index)}
           />
         ))}

@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaBasketballBall } from 'react-icons/fa';
 import CarouselSlider from '../components/animation/CarouselSlider';
-import officeneture from '../assets/Image/officeneture.jpg'
+import officeneture from '../assets/Image/officeneture4.jpg'
 import officeneture2 from '../assets/Image/officeneture2.jpg'
 import officeneture3 from '../assets/Image/officeneture3.jpg'
 
