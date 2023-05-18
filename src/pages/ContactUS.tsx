@@ -3,8 +3,7 @@ import '../style/contactUs.css'
 import ContactUsLeftSide from '../components/contactUs/ContactUsLeftSide';
 import ContactUsRightSide from '../components/contactUs/ContactUsRightSide';
 import ContactLastDetails from '../components/contactUs/ContactLastDetails';
-import { FaCopyright } from 'react-icons/fa';
-import { AiFillStar } from 'react-icons/ai';
+import ContactUsIfram from '../components/contactUs/ContactUsIfram';
 
 
 const ContactUS = () => {
@@ -14,36 +13,8 @@ const ContactUS = () => {
         <ContactUsLeftSide />
         <ContactUsRightSide />
       </div>
-      <div className='iframe ml-[8%] mt-[800px] md:mt-0'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29376.2214223758!2d72.52587845!3d23.022755949999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1684144486769!5m2!1sen!2sin" width="91.3%"
-          height="450"
-          loading="lazy"
-        >
-        </iframe>
-      </div>
-      <div className='flex pt-14 pl-32 pb-10 bg-gray-100 flex-col justify-between w-[100%]'>
-        <ContactLastDetails />
-        <div className='flex justify-between pt-10 w-[90%] flex-col md:flex-row'>
-          <div className=' flex text-center items-center'>
-            <FaCopyright className='h-10 w-16' />
-            <div className=''>
-              <div className='flex text-lg text-orange-500'>
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-              </div>
-              <p className='text-xl font-semibold'>5.0 by 25 Reviews </p>
-            </div>
-          </div>
-          <div className='flex justify-between gap-9 font-semibold flex-col text-start md:flex-row ml-28'>
-            <p>Copyright 2023 FireFox Studio. All rights reserved</p>
-            <p>Cookie Policy</p>
-            <p>Privacy Policy</p>
-          </div>
-        </div>
-      </div>
+      <ContactUsIfram />
+      <ContactLastDetails />
     </>
   )
 }

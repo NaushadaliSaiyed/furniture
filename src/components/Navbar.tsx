@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <div className={location.pathname !== "/" ? `fixed w-full h-[20%] top-0 bg-white z-50` : "relative"}>
       <div className={`fixed flex justify-between items-center text-white bg-[#48474D] w-[84%] h-[12%] ${topMargin} left-[8%] z-30`}>
-        <h1 className='mx-20 font-semibold text-2xl'><Link to={"/"}><i>Botiko</i></Link></h1>
-        <ul className='flex gap-12'>
+        <h1 className='mx-20 font-semibold text-2xl'><Link to={"/"}><i>S/N<sup>2</sup></i></Link></h1>
+        <ul className='flex gap-12 '>
           <li className='font-mono font-semibold cursor-pointer md:block hidden'><Link to={'product'}>Product</Link></li>
           <li className='font-mono font-semibold cursor-pointer hidden md:block '><Link to={'about'}>About</Link></li>
           <li className='font-mono font-semibold cursor-pointer hidden md:block'><Link to={'services'}>Services</Link></li>

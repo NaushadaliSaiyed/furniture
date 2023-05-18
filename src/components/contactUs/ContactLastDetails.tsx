@@ -2,6 +2,9 @@ import React from 'react';
 import { Collapse } from 'antd';
 import '../../style/contactLastDetails.css'
 import { Link } from 'react-router-dom';
+import { FaCopyright } from 'react-icons/fa';
+import { AiFillStar } from 'react-icons/ai';
+
 
 
 const { Panel } = Collapse;
@@ -9,6 +12,7 @@ const { Panel } = Collapse;
 const ContactLastDetails = () => {
 
     return (
+        <div className='flex pt-14 pl-32 pb-10 bg-gray-100 flex-col justify-between w-[100%]'>
         <div className='flex flex-col md:flex-row'>
             <div className='w-[300px]'>
                 <p className='font-semibold text-xl'> Visit us </p>
@@ -137,6 +141,27 @@ const ContactLastDetails = () => {
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Medium</p>
                 </div>
             </span>
+        </div>
+        <div className='flex justify-between pt-10 w-[90%] flex-col md:flex-row'>
+          <div className=' flex text-center items-center'>
+            <FaCopyright className='h-10 w-16' />
+            <div className=''>
+              <div className='flex text-lg text-orange-500'>
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </div>
+              <p className='text-xl font-semibold'>5.0 by 25 Reviews </p>
+            </div>
+          </div>
+          <div className='flex justify-between gap-9 font-semibold flex-col text-start md:flex-row ml-28'>
+            <p>Copyright 2023 FireFox Studio. All rights reserved</p>
+            <p>Cookie Policy</p>
+            <p>Privacy Policy</p>
+          </div>
+        </div>
         </div>
     )
 }
