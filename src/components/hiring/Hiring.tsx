@@ -1,5 +1,7 @@
 import React from 'react'
 import officepic from '../../assets/Image/laptopinoffice.jpg'
+import neha from '../../assets/Image/projectdiscuse.jpg'
+
 
 const Hiring = () => {
     return (
@@ -10,6 +12,7 @@ const Hiring = () => {
                     most great IT companies in your career. A team with a clear vision, strong <br />
                     work ethic, and a lot of passion to the work that we do every day.</p>
             </div>
+                <img src={neha} alt="" className='h-[100px] w-[100px] rounded-full' />
             <div>
                 <img src={officepic} alt="" className='h-[450px] w-[300px] rounded-tl-full rounded-bl-full' />
             </div>
