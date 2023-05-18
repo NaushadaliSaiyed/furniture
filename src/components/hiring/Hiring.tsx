@@ -17,7 +17,7 @@ const Hiring = () => {
             </div>
                 <img src={neha} alt="" className='relative left-56 top-16 h-[150px] w-[150px] rounded-full' />
                 <img src={sharif} alt="" className='relative top-52 left-6 h-[85px] w-[85px] rounded-full' />
-                <img src={naushad} alt="" className='relative top-72 left-8 h-[95px] w-[95px] rounded-full' />
+                <img src={naushad} alt="" className='relative top-72 left-8 h-[100px] w-[100px] rounded-full' />
             <div>
                 <img src={officepic} alt="" className='h-[450px] w-[300px] rounded-tl-full rounded-bl-full' />
             </div>
