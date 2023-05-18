@@ -1,6 +1,7 @@
 import React from 'react';
 import { Collapse } from 'antd';
 import '../../style/contactLastDetails.css'
+import { Link } from 'react-router-dom';
 
 
 const { Panel } = Collapse;
@@ -34,18 +35,21 @@ const ContactLastDetails = () => {
                     </div>
                 </div>
             </span>
-            <span className='w-[170px]'>
+            <span className='w-[200px]'>
                 <p className='font-semibold text-xl'>Company</p>
                 <div className='mt-4 cursor-pointer text-gray-500'>
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Cases</p>
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Service</p>
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>About Us</p>
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Blog</p>
-                    <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Careers</p>
+                    <div className='flex gap-3'>
+                        <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Careers</p>
+                        <Link to={"/hiring"}><p className='bg-black h-5 w-24 items-center text-center text-sm rounded text-white'>We're hiring</p></Link>
+                    </div>
                     <p className='fire-art-web-design w-max flex columns-1 text-gray-500'>Contact Us</p>
                 </div>
             </span>
-            <div className='w-[260px]'>
+            <div className='w-[250px]'>
                 <p className='font-semibold text-xl'>Details</p>
                 <div className='mt-4'>
                     <Collapse
