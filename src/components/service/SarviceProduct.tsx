@@ -13,7 +13,6 @@ import { DiJqueryLogo } from 'react-icons/di';
 import video from "../../assets/Image/happy-young.webm"
 import video1 from "../../assets/Image/happy-family.webm"
 
-
 // import Lottie from "lottie-react";
 // import groovyWalkAnimation2 from "../../assets/json/wired-lineal-1356-wooden-box.json";
 
