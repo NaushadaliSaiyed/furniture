@@ -2,7 +2,6 @@ import React from 'react'
 import Typed from 'react-typed';
 import Lottie from "lottie-react";
 import groovyWalkAnimation from "../assets/json/wired-lineal-497-truck-delivery.json";
-import groovyWalkAnimation1 from "../assets/json/wired-lineal-1121-iota-internet-of-things.json";
 
 
 const Product = () => {
@@ -20,7 +19,7 @@ const Product = () => {
 
 
   return (
-
+<>
     <div className='h-screen w-full'>
       <div className='flex'>
       <div className=' h-[680px] flex flex-col ml-[7.7rem] gap-16'>
@@ -144,10 +143,13 @@ const Product = () => {
           <p className='font-semibold mt-7 ' >Limehome is better than a hotel. Run by hospitality professionals and <br />  equipped by interior designers, they are able to combine the quality standard  <br /> of a hotel with the advantages of an apartment.</p>
         </div>
       </div>
-      <div>
-      <Lottie animationData={groovyWalkAnimation1} loop={true} className='h-80' />
+      <div className='flex items-center p-28'>
+        <p className='font-sans font-semibold text-6xl' >Let's make Something amazing together Start by <span className='text-orange-600 border-b-4 border-orange-600 hover:text-gray-400 hover:border-gray-400' >saying hi</span></p>
       </div>
+    
     </div>
+    
+    </>
 
   )
 }
