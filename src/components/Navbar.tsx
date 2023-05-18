@@ -19,8 +19,8 @@ const Navbar = () => {
           <li className='font-mono font-semibold cursor-pointer hidden md:block'><Link to={'contact-us'}>Contact us</Link></li>
         </ul>
         <VscSearch className='mx-20' />
-        <AiOutlineBars className='md:hidden mx-5 text-lg ' onClick={()=>setShow(!show)}/>
-       {show &&<div  className='absolute right-[-40px] top-[40px] w-[100px] h-[100px] bg-slate-600 md:hidden'>
+        <AiOutlineBars className='md:hidden mx-5 text-lg ' onClick={() => setShow(!show)} />
+        {show && <div className='absolute right-[0px] top-[55px] rounded w-[100px] h-[100px] text-center bg-[#48474D] md:hidden'>
           <ul>
             <li>Product</li>
             <li>About</li>
