@@ -3,6 +3,7 @@ import officepic from '../../assets/Image/laptopinoffice.jpg'
 import neha from '../../assets/Image/nehaimage.jpeg'
 import sharif from "../../assets/Image/mynewpic.jpeg";
 import naushad from "../../assets/Image/naushadpic.jpg";
+import HiringSecondPart from './HiringSecondPart';
 
 
 const Hiring = () => {
@@ -22,6 +23,7 @@ const Hiring = () => {
                     <img src={officepic} alt="" className='h-[450px] w-[300px] rounded-tl-full rounded-bl-full' />
                 </div>
             </div>
+            <HiringSecondPart/>
         </>
     )
 }
